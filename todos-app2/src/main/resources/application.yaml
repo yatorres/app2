@@ -1,0 +1,10 @@
+
+javax:
+  sql:
+    DataSource:
+      todosDataSource:
+        dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
+        dataSource:
+          databaseName: "distribuida1"
+          user: "postgres"
+          password: "admin"
